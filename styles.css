@@ -1,0 +1,378 @@
+
+
+.apple {
+    display: flex;
+  flex-direction: column;   /*  for keepng the child down to down in a single page-orientation: ; */
+    justify-content: center;     /* Center child horizontally */
+    align-items: center;         /* Center child vertically */
+    /* border: 1px solid white; */
+    padding: 20px;
+    background: white;
+    height: 100%;               /* Adjusted height for visibility */
+    width: 100%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+  
+}
+
+.bapple {
+
+    border-radius: 3px solid BLACK;
+    margin-top: 20px;;
+    padding: 20px;
+    background:RGB(173, 216, 230);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow for more 3D effect */
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing:  spacing 1px; 
+    word-spacing: 2px;
+    line-height: 35px;
+    font-size: larger;
+    color:black;
+    
+}
+
+
+
+
+label
+{
+    color:blue;
+}
+
+input{
+    width:100%;
+    text-align: center;
+    color:black;
+    font-size: medium;
+    font-weight: bold;
+
+    
+}
+
+
+/*
+.clear
+{
+    clear: both;
+    float: right;
+}
+*/
+.cont
+{
+    background-image: url("https://wallpapers.com/images/featured/sky-blue-background-klsgg0p0wj4pd0cg.jpg");
+    background-size: cover;
+width: 100%;
+
+
+
+}
+
+ 
+    
+
+
+
+.c
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px; /* Default font size */
+   text-align: justify;
+  font-style: oblique;
+}
+
+#h
+{
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#simage
+{
+    display: flex;
+    flex-direction: left;
+    float: left;
+    justify-content: flex-start;
+}
+/*
+h21{
+    display: flex;
+    align-items: center; 
+    float: left;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+   
+   
+}
+*/
+#h21
+{
+    color:aqua;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#clientsec{
+    background-image: url("https://w0.peakpx.com/wallpaper/323/21/HD-wallpaper-plain-white-abstract.jpg");
+    background-size: cover;
+    padding: 10px 0;
+
+}
+
+.ordered-list {
+    list-style-type: none; /* Set list style type to decimal numbers */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 16px; /* Set font size */
+    line-height: 1; /* Set line height */
+    padding-left: 0; /* Remove default padding */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+
+.ordered-list li {
+    margin-bottom: 10px; /* Add margin between list items */
+    margin-bottom: 10px;
+    padding-left: 20px;
+   text-align: left;
+}
+
+
+
+
+#client
+{
+    font-weight: normal; /* Set font weight to normal (not bold) */
+    font-size: 40px;
+    color: black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px; /* Add letter spacing */
+    line-height: 1.5; /
+   
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   /* text-decoration: underline;*/
+    line-height: 1;
+    font-size: 35px
+}
+
+h6{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: justify; 
+    line-height: 1.5;
+    margin-bottom: 20px; /* Add margin to bottom */
+    padding: 10px; /* Add padding */
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+#cname
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-decoration: solid;
+    text-decoration-thickness: 23px;
+    color: gray;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*
+    background-image:
+     url("https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?size=626&ext=jpg");
+     background-size: cover;
+     */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+   
+   
+}
+
+
+.p
+{
+  
+   text-align: justify;
+
+}
+.containers
+{
+    display: flex;
+    align-items: right; 
+
+}
+
+.list{
+   text-decoration: dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  
+  
+}
+
+
+#img
+{
+   
+    width: 100%; /* The image will scale down to fit the container */
+        max-height: 450px; /* The image will scale down to fit the container */
+  
+   
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*
+nav ul li a.active {
+    font-weight: bold;
+    color: red; /* Change color as needed 
+}
+*/
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .c {
+        font-size: 50px; /* Reduced font size for tablet */
+    }
+
+    #h {
+        font-size: 25px;
+    }
+
+    #client {
+        font-size: 30px;
+    }
+
+    .ordered-list {
+        font-size: 14px; /* Reduced font size for list */
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    #img {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+
+    .c {
+        font-size: 40px; /* Smaller font size */
+    }
+
+    #h {
+        font-size: 20px;
+    }
+
+    #client {
+        font-size: 28px;
+    }
+
+    .ordered-list {
+        font-size: 12px; /* Even smaller list font size */
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #img {
+        max-height: 250px;
+    }
+}
