@@ -1,4 +1,24 @@
+img, body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img, body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .apple {
     display: flex;
