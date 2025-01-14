@@ -1,4 +1,4 @@
-
+/* 
 body, html {
     width: 100%;
     overflow-x: hidden;
@@ -9,10 +9,10 @@ body, html {
 }
 
 img {
-    max-width: 100%;  /* Prevents images from overflowing */
+    max-width: 100%;  /* Prevents images from overflowing 
 }
 .container {
-    width: 100%; /* or use max-width: 100% */
+    width: 100%; /* or use max-width: 100% 
 }
 
 @media (max-width: 768px) {
@@ -49,6 +49,75 @@ img, body, html {
 body {
     margin: 0;
     padding: 0;
+} */
+
+
+/* Ensures the website scales correctly on different screen sizes */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box;
+}
+
+/* Makes sure that all images and elements don't overflow their containers */
+*,
+*::before,
+*::after {
+    box-sizing: inherit; /* Ensures all elements use border-box sizing */
+}
+
+img {
+    max-width: 100%;  /* Prevents images from overflowing */
+    height: auto;     /* Ensures images maintain aspect ratio */
+}
+
+/* Ensures container takes up the full width of the screen */
+.container {
+    width: 100%; /* Ensures responsiveness */
+    padding: 0 15px;  /* Add padding for better layout control */
+}
+
+/* Ensures text scales nicely on smaller screens */
+body {
+    font-size: 16px; /* Default font-size */
+}
+
+/* Responsive styling for smaller screens (mobile and tablets) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;  /* Adjust font size for better readability */
+    }
+
+    .container {
+        padding: 10px;  /* Reduces padding on smaller screens */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5em; /* Adjust headings for small screens */
+    }
+
+    p {
+        font-size: 1em;  /* Adjust paragraph font-size for readability */
+    }
+
+    /* Optional: Adjust layouts for specific sections */
+    .some-section {
+        flex-direction: column; /* Stack items vertically if needed */
+    }
+}
+
+/* Responsive styling for very small screens (like phones) */
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;  /* Further reduce font-size if needed */
+    }
+
+    .container {
+        padding: 5px;  /* Further reduce padding on very small screens */
+    }
 }
 
 .apple {
